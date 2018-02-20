@@ -1,0 +1,26 @@
+<div fxLayout="column">
+  <div>
+      <mat-toolbar color="primary" fxLayout="row" fxFlex="100" fxFlex.xs="100">
+          <p>Schedule</p> 
+          <button mat-raised-button color="accent"
+          [style.padding.px]="0" fxFlexOffset="5"
+          fxHide.xs
+          ><mat-icon><i class="material-icons">note_add</i></mat-icon></button>
+          <button mat-raised-button 
+          [style.padding.px]="0"
+          fxHide.xs
+          ><mat-icon><i class="material-icons">contacts</i></mat-icon></button>
+          <input type="text" fxFlexOffset="60" fxFlexOffset.xs="5" fxFlex.xs="80"
+          placeholder="search contact ...">
+          
+        </mat-toolbar>
+  </div>
+  <div fxLayout="row">
+    <div fxLayout="column" fxFlexOffset="2" fxFlex="60" fxHide.lg fxHide.md fxHide.sm>
+        <button mat-fab fxFlexOffset="5" color="primary"><mat-icon><i class="material-icons">note_add</i></mat-icon></button>
+        <button mat-fab fxFlexOffset="5"><mat-icon><i class="material-icons">contacts</i></mat-icon></button>
+    </div>
+      
+  </div>
+    
+</div>
